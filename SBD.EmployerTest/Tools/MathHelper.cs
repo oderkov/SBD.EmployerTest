@@ -1,5 +1,6 @@
-﻿using System;
+﻿using System.Runtime.CompilerServices;
 
+[assembly: InternalsVisibleTo("SBD.EmployerTest.Tests")]
 namespace SBD.EmployerTest.Tools
 {
     internal static class MathHelper
