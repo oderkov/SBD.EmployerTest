@@ -1,9 +1,10 @@
 ﻿using System.Runtime.CompilerServices;
 
+[assembly: InternalsVisibleTo("SBD.EmployerTest.App")]
 [assembly: InternalsVisibleTo("SBD.EmployerTest.Tests")]
 namespace SBD.EmployerTest.Tools
 {
-    internal static class MathHelper
+    internal static class Math
     {
         public static bool IsPowerOfThree(int n)
         {

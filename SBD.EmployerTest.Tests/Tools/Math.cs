@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Xunit;
+﻿using Xunit;
 
 namespace SBD.EmployerTest.Tests.Tools
 {
-    public class MathHelper
+    public class Math
     {
         [Theory]
         [InlineData(8, false)]
@@ -14,7 +11,7 @@ namespace SBD.EmployerTest.Tests.Tools
         [InlineData(27, true)]
         public void IsPowerOfThree(int value, bool expected)
         {
-            var result = SBD.EmployerTest.Tools.MathHelper.IsPowerOfThree(value);
+            var result = SBD.EmployerTest.Tools.Math.IsPowerOfThree(value);
             Assert.Equal(expected, result);
         }
     }
